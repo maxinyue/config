@@ -1,0 +1,424 @@
+databases:
+  jgxt_base:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.100.64:3306/
+    user: hdp_report
+    password: kJ3QABQ=FTmxG
+    properties:
+      truncate: true
+      UPSQL_PARAMS_TABLE : upw_time_params
+      url: useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&failOverReadOnly=false
+  jgxt_test:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.100.14:3307/
+    user: hdp_report
+    password: kJ3QABQ=FTmxG
+    properties:
+      truncate: true
+      UPSQL_PARAMS_TABLE : upw_time_params
+      url: useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&failOverReadOnly=false
+  jgxt_gs:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.100.14:3307/
+    user: hdp_report
+    password: kJ3QABQ=FTmxG
+    properties:
+      truncate: true
+      UPSQL_PARAMS_TABLE : upw_time_params
+      url: useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&failOverReadOnly=false
+  jgxt_bj:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.100.15:3308/
+    user: hdp_report
+    password: kJ3QABQ=FTmxG
+    properties:
+      truncate: true
+      UPSQL_PARAMS_TABLE : upw_time_params
+      url: useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&failOverReadOnly=false
+  jgxt_gd:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.100.16:3307/
+    user: hdp_report
+    password: kJ3QABQ=FTmxG
+    properties:
+      truncate: true
+      UPSQL_PARAMS_TABLE : upw_time_params
+      url: useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&failOverReadOnly=false
+  jgxt_hen:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.100.15:3307/
+    user: hdp_report
+    password: kJ3QABQ=FTmxG
+    properties:
+      truncate: true
+      UPSQL_PARAMS_TABLE : upw_time_params
+      url: useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&failOverReadOnly=false
+  jgxt_ah:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.100.14:3307/
+    user: hdp_report
+    password: kJ3QABQ=FTmxG
+    properties:
+      truncate: true
+      UPSQL_PARAMS_TABLE : upw_time_params
+      url: useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&failOverReadOnly=false
+  jgxt_gz:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.100.16:3308/
+    user: hdp_report
+    password: kJ3QABQ=FTmxG
+    properties:
+      truncate: true
+      UPSQL_PARAMS_TABLE : upw_time_params
+      url: useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&failOverReadOnly=false
+  jgxt_nm:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.100.15:3307/
+    user: hdp_report
+    password: kJ3QABQ=FTmxG
+    properties:
+      truncate: true
+      UPSQL_PARAMS_TABLE : upw_time_params
+      url: useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&failOverReadOnly=false
+  jgxt_hun:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.100.16:3308/
+    user: hdp_report
+    password: kJ3QABQ=FTmxG
+    properties:
+      truncate: true
+      UPSQL_PARAMS_TABLE : upw_time_params
+      url: useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&failOverReadOnly=false
+  jgxt_heb:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.100.14:3308/
+    user: hdp_report
+    password: kJ3QABQ=FTmxG
+    properties:
+      truncate: true
+      UPSQL_PARAMS_TABLE : upw_time_params
+      url: useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&failOverReadOnly=false
+  jgxt_sc:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.100.15:3308/
+    user: hdp_report
+    password: kJ3QABQ=FTmxG
+    properties:
+      truncate: true
+      UPSQL_PARAMS_TABLE : upw_time_params
+      url: useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&failOverReadOnly=false
+  jgxt_jx:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.100.16:3308/
+    user: hdp_report
+    password: kJ3QABQ=FTmxG
+    properties:
+      truncate: true
+      UPSQL_PARAMS_TABLE : upw_time_params
+      url: useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&failOverReadOnly=false
+  jgxt_zj:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.100.14:3308/
+    user: hdp_report
+    password: kJ3QABQ=FTmxG
+    properties:
+      truncate: true
+      UPSQL_PARAMS_TABLE : upw_time_params
+      url: useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&failOverReadOnly=false
+  jgxt_xj:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.100.16:3307/
+    user: hdp_report
+    password: kJ3QABQ=FTmxG
+    properties:
+      truncate: true
+      UPSQL_PARAMS_TABLE : upw_time_params
+      url: useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&failOverReadOnly=false
+  jgxt_js:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.100.14:3308/
+    user: hdp_report
+    password: kJ3QABQ=FTmxG
+    properties:
+      truncate: true
+      UPSQL_PARAMS_TABLE : upw_time_params
+      url: useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&failOverReadOnly=false
+  jgxt_jl:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.100.14:3307/
+    user: hdp_report
+    password: kJ3QABQ=FTmxG
+    properties:
+      truncate: true
+      UPSQL_PARAMS_TABLE : upw_time_params
+      url: useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&failOverReadOnly=false
+  jgxt_shx:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.100.15:3308/
+    user: hdp_report
+    password: kJ3QABQ=FTmxG
+    properties:
+      truncate: true
+      UPSQL_PARAMS_TABLE : upw_time_params
+      url: useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&failOverReadOnly=false
+  jgxt_tj:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.100.15:3307/
+    user: hdp_report
+    password: kJ3QABQ=FTmxG
+    properties:
+      truncate: true
+      UPSQL_PARAMS_TABLE : upw_time_params
+      url: useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&failOverReadOnly=false
+  jgxt_sx:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.100.16:3308/
+    user: hdp_report
+    password: kJ3QABQ=FTmxG
+    properties:
+      truncate: true
+      UPSQL_PARAMS_TABLE : upw_time_params
+      url: useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&failOverReadOnly=false
+  jgxt_sh:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.100.16:3307/
+    user: hdp_report
+    password: kJ3QABQ=FTmxG
+    properties:
+      truncate: true
+      UPSQL_PARAMS_TABLE : upw_time_params
+      url: useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&failOverReadOnly=false
+  jgxt_sd:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.100.15:3308/
+    user: hdp_report
+    password: kJ3QABQ=FTmxG
+    properties:
+      truncate: true
+      UPSQL_PARAMS_TABLE : upw_time_params
+      url: useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&failOverReadOnly=false
+  jgxt_hub:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.100.15:3307/
+    user: hdp_report
+    password: kJ3QABQ=FTmxG
+    properties:
+      truncate: true
+      UPSQL_PARAMS_TABLE : upw_time_params
+      url: useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&failOverReadOnly=false
+  jgxt_gx:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.100.16:3307/
+    user: hdp_report
+    password: kJ3QABQ=FTmxG
+    properties:
+      truncate: true
+      UPSQL_PARAMS_TABLE : upw_time_params
+      url: useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&failOverReadOnly=false
+  jgxt_fj:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.100.14:3308/
+    user: hdp_report
+    password: kJ3QABQ=FTmxG
+    properties:
+      truncate: true
+      UPSQL_PARAMS_TABLE : upw_time_params
+      url: useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&failOverReadOnly=false
+  jgxt_yn:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.100.14:3307/
+    user: hdp_report
+    password: kJ3QABQ=FTmxG
+    properties:
+      truncate: true
+      UPSQL_PARAMS_TABLE : upw_time_params
+      url: useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&failOverReadOnly=false
+  jgxt_cq:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.100.16:3308/
+    user: hdp_report
+    password: kJ3QABQ=FTmxG
+    properties:
+      truncate: true
+      UPSQL_PARAMS_TABLE : upw_time_params
+      url: useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&failOverReadOnly=false
+  jgxt_ln:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.100.15:3307/
+    user: hdp_report
+    password: kJ3QABQ=FTmxG
+    properties:
+      truncate: true
+      UPSQL_PARAMS_TABLE : upw_time_params
+      url: useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&failOverReadOnly=false
+  jgxt_hlj:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.100.16:3307/
+    user: hdp_report
+    password: kJ3QABQ=FTmxG
+    properties:
+      truncate: true
+      UPSQL_PARAMS_TABLE : upw_time_params
+      url: useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&failOverReadOnly=false
+  jgxt_nx:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.100.14:3308/
+    user: hdp_report
+    password: kJ3QABQ=FTmxG
+    properties:
+      truncate: true
+      UPSQL_PARAMS_TABLE : upw_time_params
+      url: useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&failOverReadOnly=false
+  jgxt_han:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.100.14:3307/
+    user: hdp_report
+    password: kJ3QABQ=FTmxG
+    properties:
+      truncate: true
+      UPSQL_PARAMS_TABLE : upw_time_params
+      url: useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&failOverReadOnly=false
+  jgxt_qh:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.100.15:3308/
+    user: hdp_report
+    password: kJ3QABQ=FTmxG
+    properties:
+      truncate: true
+      UPSQL_PARAMS_TABLE : upw_time_params
+      url: useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&failOverReadOnly=false
+  jgxt_xz:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.100.15:3308/
+    user: hdp_report
+    password: kJ3QABQ=FTmxG
+    properties:
+      truncate: true
+      UPSQL_PARAMS_TABLE : upw_time_params
+      url: useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&failOverReadOnly=false
+  jgxt_xjbt:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.18.100.14:3307/
+    user: hdp_report
+    password: kJ3QABQ=FTmxG
+    properties:
+      truncate: true
+      UPSQL_PARAMS_TABLE : upw_time_params
+      url: useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=true&failOverReadOnly=false
+local:
+  migrateTables:
+    jgxt_bj:
+      - busi_archive
+      - busi_baby_situation
+      - busi_basic_info
+      - busi_early_visit
+      - busi_evaluation_advice
+      - busi_exam_value
+      - busi_gene
+      - busi_hemoglobin
+      - busi_husband_general_situation
+      - busi_husband_genital_exam
+      - busi_list_info
+      - busi_physical_exam
+      - busi_pregnancy_visit
+      - busi_wife_b_value
+      - busi_wife_general_situation
+      - busi_wife_genital_exam
+    jgxt_base:
+      - dict_exam_item
+      - dict_exam_type
+      - dict_zone
+      - sys_dict
+      - um_organization
+  timeouts:
+    etl1:
+      timeout: 1
+spark:
+  rddSize: 100000
+  master: yarn
+  configs:
+    spark.ui.port: 4049
+    spark.sql.broadcastTimeout: 6000000
+    spark.driver.memory: 20g
+    spark.yarn.executor.memoryOverhead: 2G
+    spark.executor.instances: 4
+    spark.executor.cores: 3
+    spark.executor.memory: 10g
+    spark.default.parallelism: 80
+    spark.shuffle.file.buffer: 64k
+    spark.memory.useLegacyMode: true
+    spark.shuffle.memoryFraction: 0.6
+    spark.storage.memoryFraction: 0.6
+    spark.sql.parquet.writeLegacyFormat: true
+    spark.shuffle.service.enabled: true
+    spark.shuffle.service.port: 7337
+    spark.sql.shuffle.partitions: 80
+    spark.reducer.maxSizeInFlight: 96m
+    spark.streaming.blockInterval: 200m
+    spark.sql.inMemoryColumnarStorage.batchSize: 100000
+    spark.sql.autoBroadcastJoinThreshold: 33554432
+    spark.submit.deployMode: client
+    spark.sql.hive.metastore.jars: builtin
+    spark.eventLog.dir: hdfs://masters/spark/logs/eventLog
+    spark.eventLog.enabled: true
+    spark.eventLog.compress: true
+    spark.sql.warehouse.dir: hdfs://masters/user/jgxt_hive/warehouse
+hive:
+  hive.metastore.uris: thrift://hdp02.bd-yg.com:9083
+monitor:
+  alerts:
+    - name: 马欣玥
+      emails:
+        - maxinyue@bd-yg.com
+#    - name: 金辉
+#      emails:
+#        - jinhui@bd-yg.com
+#    - name: 高金山
+#      emails:
+#        - gaojinshan@bd-yg.com
+#    - name: 康伟伟
+#      emails:
+#        - kangweiwei@bd-yg.com
+#    - name: 蔡光龙
+#      emails:
+#        - caiguanglong@bd-yg.com
+#    - name: 刘会群
+#      emails:
+#        - liuhuiqun@bd-yg.com
+#    - name: 许术山
+#      emails:
+#        - xushushan@bd-yg.com

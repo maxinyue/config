@@ -1,0 +1,11 @@
+databases:
+  jgxt_hen:
+    type: MYSQL
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://10.100.1.100:3306/jgxt_hen?useUnicode=true&amp;characterEncoding=UTF-8&amp;autoReconnect=true
+    user: dev
+    password: Dev@bjtuling@com
+    properties:
+      truncate: true
+hive:
+  hive.metastore.uris: thrift://hdp02v-bjqw.bjtuling.com:9083
