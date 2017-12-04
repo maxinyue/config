@@ -1,11 +1,38 @@
 databases:
-  jgxt_hen:
+  obama:
     type: MYSQL
     driver: com.mysql.jdbc.Driver
-    url: jdbc:mysql://10.100.1.100:3306/jgxt_hen?useUnicode=true&amp;characterEncoding=UTF-8&amp;autoReconnect=true
-    user: dev
-    password: Dev@bjtuling@com
+    url: jdbc:mysql://obama-master:32768/obama?useUnicode=true&amp;characterEncoding=UTF-8&amp;autoReconnect=true
+    user: obama
+    password: obama
     properties:
       truncate: true
+spark:
+  rddSize: 100000
+  master: yarn
+  configs:
+    spark.ui.port: 4049
+    spark.eventLog.dir: hdfs://obama-master:9000/spark/logs/eventLog
+    spark.eventLog.enabled: true
+    spark.eventLog.compress: true
+    spark.sql.broadcastTimeout: 6000000
+    spark.shuffle.memoryFraction: 0.4
+    spark.executor.instances: 3
+    spark.executor.cores: 1
+    spark.executor.memory: 4g
+    spark.default.parallelism: 320
+    spark.shuffle.file.buffer: 64k
+    spark.reducer.maxSizeInFlight: 96m
+    spark.sql.shuffle.partitions: 8
+    spark.sql.inMemoryColumnarStorage.batchSize: 100000
+    spark.sql.autoBroadcastJoinThreshold: 20971520
+    spark.sql.warehouse.dir: hdfs://obama-master:9000/user/hive/warehouse
+    spark.submit.deployMode: client
+    spark.sql.hive.metastore.jars: builtin
+    spark.shuffle.service.enabled: true
+    spark.shuffle.service.port: 7337
+    spark.dynamicAllocation.enabled: true
+    spark.dynamicAllocation.minExecutors: 1
+    spark.dynamicAllocation.maxExecutors: 3
 hive:
-  hive.metastore.uris: thrift://hdp02v-bjqw.bjtuling.com:9083
+  hive.metastore.uris: thrift://obama-master:9083
