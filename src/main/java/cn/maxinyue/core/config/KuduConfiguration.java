@@ -19,4 +19,11 @@ public class KuduConfiguration {
     public void setProperties(Properties properties) {
         this.properties = properties;
     }
+
+    @Override
+    public String toString() {
+        return "KuduConfiguration{" +
+                "properties=" + properties +
+                '}';
+    }
 }

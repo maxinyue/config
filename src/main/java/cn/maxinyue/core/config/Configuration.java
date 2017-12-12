@@ -162,6 +162,8 @@ public class Configuration implements Serializable {
                 ", hive=" + hive +
                 ", local=" + local +
                 ", monitor=" + monitor +
+                ", kafka=" + kafka +
+                ", kudu=" + kudu +
                 '}';
     }
 
