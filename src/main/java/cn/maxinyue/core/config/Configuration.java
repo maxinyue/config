@@ -103,6 +103,8 @@ public class Configuration implements Serializable {
 
     private KafkaConfiguration kafka;
 
+    private KuduConfiguration kudu;
+
     @XmlElement
     public Map<String, DatabaseConfiguration> getDatabases() {
         return databases;
@@ -170,5 +172,14 @@ public class Configuration implements Serializable {
 
     public void setMonitor(MonitorConfiguration monitor) {
         this.monitor = monitor;
+    }
+
+    @XmlElement
+    public KuduConfiguration getKudu() {
+        return kudu;
+    }
+
+    public void setKudu(KuduConfiguration kudu) {
+        this.kudu = kudu;
     }
 }
