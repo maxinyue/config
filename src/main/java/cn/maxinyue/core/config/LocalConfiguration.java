@@ -2,10 +2,7 @@ package cn.maxinyue.core.config;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Created by obama on 2017/4/27.
@@ -20,6 +17,8 @@ public class LocalConfiguration {
     private Map<String, List<String>> migrateTables = new HashMap<>();
 
     private Map<String, TimeoutQuestConfiguration> timeouts = new LinkedHashMap<>();
+
+    private Properties custom;
 
     @XmlElement
     public Map<String, String> getTargetMap() {
@@ -81,6 +80,15 @@ public class LocalConfiguration {
         return t;
     }
 
+    @XmlElement
+    public Properties getCustom() {
+        return custom;
+    }
+
+    public void setCustom(Properties custom) {
+        this.custom = custom;
+    }
+
     @Override
     public String toString() {
         return "LocalConfiguration{" +
@@ -88,6 +96,7 @@ public class LocalConfiguration {
                 ", statDateMap=" + statDateMap +
                 ", migrateTables=" + migrateTables +
                 ", timeouts=" + timeouts +
+                ", custom=" + custom +
                 '}';
     }
 }
