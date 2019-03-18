@@ -90,6 +90,6 @@ public class DatabaseConfiguration {
     }
 
     public static enum Type {
-        MYSQL, HIVE, HBASE, ORACLE;
+        MYSQL, HIVE, HBASE, ORACLE, H2, POSTGRESQL;
     }
 }
